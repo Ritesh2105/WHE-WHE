@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html{
+  background-color: yellow;
+}
+
+#number{
+float: left;
+border: 10px solid skyblue;
+width: 400px;
+height: 300px;
+padding: 10px;
+margin: 20px;
+margin-left: 90px;
+}
+
+#number button{
+  margin:1px;
+  padding: 10px;
+}
+
+#dollar{
+  float: left;
+  width: 100px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 200px;
+  }
+
+#dollar button{
+  margin:1px;
+  padding: 10px;
+}
+
+#number-list{
+  float: right;
+  width: 200px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 300px;
+  }
+
+#number-list h4{
+  color: blue;
+}
+
+#footer {
+  float: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  float: right; 
+}
+
+.skyblue{
+  background-color: skyblue;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.noChange{
+  border: 2px solid black;
+}
+
+.changeInBorder{
+  border: 10px solid red;
+}
+
+.NumberSection{
+  float: left;
+border: 10px solid skyblue;
+width: 400px;
+height: 300px;
+padding: 10px;
+margin: 20px;
+margin-left: 90px;
+  border: 10px solid skyblue;
+}
+
+/* .confirms-buttons{
+  border: 10px solid blue;
+} */
+
+.Number-rows button{
+  margin:10px;
+  padding: 10px;
+}
+
+/* .root{
+  border: 10px solid skyblue;
+} */
+
+/* .App{
+  border: 10px solid skyblue;
+} */
+
+.selectCount{
+  border:10px solid red;
+}
+
+.amount{
+  float: left;
+  width: 100px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  padding-bottom: 40px;
+  margin: 20px;
+  margin-left: 200px;
+}
+
+.amount button{
+  margin:20px;
+  padding: 1px;
+}
+
+.colornoChange{
+  border: 2px solid black;
+}
+
+.colorchangeInBorder{
+  border: 10px solid rgb(158, 41, 60);
+}
+
+.number-list-display{
+  float: right;
+  width: 200px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 300px;
+}
+
+.number-list-display h4{
+  color: blue;
+}
+/* 
+.Cash-Screen{
+  background-color: rgb(216, 231, 83);
+} */
+.Modal{
+  float: left;
+  width: 1200px;
+  height: 600px;
+  border: 10px solid rgb(212, 159, 59);
+  padding: 10px;
+  margin: 20px;
+  margin-right: 300px;
+  margin-left: 100px;
+  margin-top: 60px;
+  background-color: yellow;
+}
+
+.Amount-received{
+  float:left;
+  width: 200px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 300px;
+}
+
+.Amount-received button{
+  border: 1px solid black;
+  margin:10px;
+  padding: 10px;
+}
+
+.CalculatorNumber{
+  float: left;
+  width: 200px;
+  height: 300px;
+  border: 10px solid skyblue;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 350px;
+}
+
+.CalculatorNumber button{
+  border: 1px solid black;
+  margin:10px;
+  padding: 10px;
+}
+
+.d{
+  background-color: pink;
+}
+
+/* .Cash-Screen h2{
+  border: 10px solid bluw;
+} */
