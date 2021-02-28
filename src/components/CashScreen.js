@@ -3,7 +3,10 @@ import "../css/App.css";
 
 const CashScreen = () => {
 const total = parseInt(localStorage.getItem("total"));
-const numberArray = [1,2,3,4,5,6,7,8,9,0]
+const [change, calChange] = useState(0)
+
+    let changeValue = total-change;
+
         return (
             <div className = "Cash-Screen">
                 <h2>Cash</h2>
@@ -13,11 +16,12 @@ const numberArray = [1,2,3,4,5,6,7,8,9,0]
                 <input type="text" onkeydown="return false"  id="total" name="total" value = {total}/><br></br>
                 <br></br>
                 <label for="received">Recieved:</label>
-                <input type="text" id="received" name="received"/><br></br><br></br>
-                <label for="change">Change:</label>
-                <input type="text" id="change" name="change"/><br></br><br></br>
+                <input type="text" id="received" name="received" onChange={event => calChange(event.target.value)} />
+                <br></br><br></br>
+                <label for="change">Change:</label> {changeValue} <br></br><br></br>
+                {/* <input type="text" id="change" name="change"/><br></br><br></br> */}
                 <button className= "confirm" >Confirm</button>
-                <button className= "Close" >Close</button>
+                <button className= "Close">Close</button>
                 </div>
                 <div className = "CalculatorNumber">
                 <button name="1">1</button>
