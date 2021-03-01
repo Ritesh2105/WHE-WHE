@@ -4,8 +4,14 @@ import "../css/App.css";
 const CashScreen = () => {
 const total = parseInt(localStorage.getItem("total"));
 const [change, calChange] = useState(0)
+let changeValue;
+if(change>0){
+    changeValue = change - total;
 
-    let changeValue = total-change;
+}
+else {
+    changeValue = 0;
+}
 
         return (
             <div className = "Cash-Screen">
